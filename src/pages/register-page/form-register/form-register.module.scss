@@ -1,0 +1,69 @@
+.formSection{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.leftSection, .rightSection{
+    width: 50%;
+    box-sizing: border-box;
+}
+.leftSection{
+    padding: 0 20px 0 0;
+    width: 50%;
+}
+.rightSection{
+    padding: 0 0 0 20px;
+}
+.hr{
+    opacity: 0.2;
+    border: 1px dashed #000000;
+    width: full-width;
+    margin: 48px auto 42px auto;
+}
+.registerSection{
+    display: flex;
+    justify-content: space-between;
+    // position: relative;
+    & label{
+        display: flex;
+        align-items: center;
+    }
+    & div{ 
+        & a{
+            font-size: 16px;
+        }
+    }
+}
+.registerButton{
+    width: 30%;
+}
+.checkboxLabelContent{
+    height: min-content;
+    & div {
+        display: flex;
+        align-items: center;
+        font-family: Nunito Sans;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        color: #A1A1A1;
+        cursor: pointer;
+        & div {
+            display: block;
+            position: relative;
+            & div {
+                display: flex;
+                align-items: center;
+            }
+        }
+    }
+    & a{
+        font-size: 12px;
+        line-height: 16px;
+    }
+    & label{
+        display: flex;
+        align-items: center;
+    }
+}

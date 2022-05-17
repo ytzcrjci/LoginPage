@@ -1,0 +1,124 @@
+.fullContainer {
+  height: 100vh;
+  width: 100%;
+  color: #525252;
+  padding: 0;
+  margin: 0;
+}
+.topbar {
+  height: 50px;
+  padding: 0 30px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border-bottom: 2px solid #f1f3f6;
+  & div {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    //   &:hover {
+    //    & img {
+    //     transform: rotate(1000deg);
+    //     transition-duration: 10s;
+    //    }
+    //   }
+    & img {
+      margin: 0 0 0 10px;
+    }
+  }
+}
+.content {
+  width: 100%;
+  height: calc(100% - 50px);
+  display: flex;
+}
+.leftBar {
+  width: 350px;
+  height: 100%;
+  background-color: rgb(255, 255, 255);
+}
+.userProfileImage {
+  padding: 30px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 250px;
+  width: 250px;
+  margin: 0 auto;
+  border-radius: 10px;
+  & img {
+    box-shadow: 0px 18px 30px -15px rgba(66, 68, 90, 1);
+    border-radius: 10px;
+  }
+}
+.userInfo {
+  text-align: center;
+}
+.userName {
+  font-size: 24px;
+  font-weight: bold;
+}
+.userDetails {
+  font-size: 16px;
+  margin: 0 0 25px 0;
+}
+.rightBar {
+  width: calc(100% - 350px);
+  height: 100%;
+}
+.navBar {
+  height: 50px;
+  padding: 15px 30px;
+  box-sizing: border-box;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.next,
+.previous,
+.current {
+  display: flex;
+  align-items: center;
+}
+.current {
+  cursor: pointer;
+  background-color: #7f265b;
+  color: white;
+  padding: 5px 15px;
+  border-radius: 20px;
+  box-sizing: border-box;
+  background: linear-gradient(45deg, #7f265b 31%, rgba(209, 24, 24, 1) 100%);
+}
+.next,
+.previous {
+  cursor: pointer;
+  transition: all ease-in-out 0.5s;
+  &:hover {
+    transform: scale(1.05);
+    & img {
+      transform: scale(1.2);
+    }
+  }
+  & img {
+    transition: all ease-in-out 0.5s;
+  }
+}
+hr {
+  background-color: #f1f3f6;
+  color: #f1f3f6;
+  border-top: 1px solid #f1f3f6;
+}
+.context {
+  height: calc(100% - 50px);
+  width: 100%;
+  background-color: #f1f3f6;
+  border-top-left-radius: 15px;
+  padding: 35px 60px;
+  box-sizing: border-box;
+}
