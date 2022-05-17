@@ -1,6 +1,7 @@
 # LoginPage - drugi projekt
 
-Dane z rejestracji wysyłane są na serwer Firebase. 
+
+Dane z rejestracji wysyłane są na serwer Firebase (inny niż do logowania). 
 
 Logowanie z firebaseAuth - sonia@wp.pl / qweqwe1!Q 
 
