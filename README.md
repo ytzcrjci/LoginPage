@@ -1,5 +1,6 @@
 # LoginPage - drugi projekt
 
+//Bez mobilki
 
 Dane z rejestracji wysyłane są na serwer Firebase (inny niż do logowania). 
 
