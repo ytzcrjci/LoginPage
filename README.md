@@ -1,6 +1,6 @@
-# LoginPage - drugi projekt
+# LoginPage - drugi projekt na stażu, należy wziąc pod uwagę to, iż jest to jeden z moich pierwszych projektów na ReactJS. Z doświadczeniem, które obecnie zdobyłam, poprawiłabym oraz zmieniła i zrobiła inaczej wiele rzeczy
 
-//Bez mobilki, ReactJS
+//Bez mobilki, ReactJS 
 
 Dane z rejestracji wysyłane są na serwer Firebase (inny niż do logowania). 
 
